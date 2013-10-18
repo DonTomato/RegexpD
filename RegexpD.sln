@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexpD", "RegexpD\RegexpD.csproj", "{03E02856-7A8B-4AFC-AF03-2EFD3C1B8748}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCore", "FsCore\FsCore.fsproj", "{21E37086-E9DF-4305-BA2C-C214ABFC20CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{03E02856-7A8B-4AFC-AF03-2EFD3C1B8748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03E02856-7A8B-4AFC-AF03-2EFD3C1B8748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03E02856-7A8B-4AFC-AF03-2EFD3C1B8748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E37086-E9DF-4305-BA2C-C214ABFC20CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E37086-E9DF-4305-BA2C-C214ABFC20CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E37086-E9DF-4305-BA2C-C214ABFC20CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E37086-E9DF-4305-BA2C-C214ABFC20CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
