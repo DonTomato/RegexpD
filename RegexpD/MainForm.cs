@@ -36,7 +36,7 @@ namespace RegexpD
 			{
 				List<string> result = new List<string>();
 
-                result = _analyzer.Analyze(tePattern.Text, tePattern.Text, cheIgnoreCase.Checked);
+                result = _analyzer.Analyze(teInput.Text, tePattern.Text, cheIgnoreCase.Checked);
 
 				teResult.Lines = result.ToArray();
 
