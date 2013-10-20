@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RegexpD.RA;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,8 @@ namespace RegexpD
 		{
 			InitializeComponent();
 		}
+
+        private ResultSaver _saver = new ResultSaver();
 
 		private void tePattern_KeyPress(object sender, KeyPressEventArgs e)
 		{
@@ -55,6 +58,8 @@ namespace RegexpD
 				}
 
 				teResult.Lines = result.ToArray();
+
+                _saver.Save(teInput.Text, tePattern.Text, result);
 			}
 			catch (Exception ex)
 			{
