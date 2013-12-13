@@ -12,7 +12,7 @@ namespace RegexpD.RA
 
         public void Save(string text, string pattern, List<string> list)
         {
-            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Archieve");
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Archive");
 
             var archieveDir = new DirectoryInfo(path);
             if (!archieveDir.Exists)
