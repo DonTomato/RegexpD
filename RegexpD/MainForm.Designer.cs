@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.teInput = new System.Windows.Forms.TextBox();
             this.tePattern = new System.Windows.Forms.TextBox();
             this.teResult = new System.Windows.Forms.TextBox();
@@ -100,6 +101,7 @@
             this.Controls.Add(this.teResult);
             this.Controls.Add(this.tePattern);
             this.Controls.Add(this.teInput);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "RegEXpTest";
             this.ResumeLayout(false);
