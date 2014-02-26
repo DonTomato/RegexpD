@@ -54,6 +54,7 @@ namespace RegexpD
 
 			// comment 3
 			// comment 4
+			// yet another comment
         }
 	}
 }
