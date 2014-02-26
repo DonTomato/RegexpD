@@ -40,7 +40,7 @@ namespace RegexpD
 
 				teResult.Lines = result.ToArray();
 
-                _saver.Save(teInput.Text, tePattern.Text, result);
+                _saver.Save(teInput.Text, tePattern.Text, result); // test comment 2
 			}
 			catch (Exception ex)
 			{
@@ -51,6 +51,10 @@ namespace RegexpD
         private void btAnalyze_Click(object sender, EventArgs e)
         {
             Analyze();
+
+			// comment 3
+			// comment 4
+			// yet another comment
         }
 	}
 }
