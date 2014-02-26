@@ -51,6 +51,10 @@ namespace RegexpD
         private void btAnalyze_Click(object sender, EventArgs e)
         {
             Analyze();
+
+			// comment 3
+			// comment 4
+			// yet another comment
         }
 	}
 }
