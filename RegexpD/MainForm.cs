@@ -40,7 +40,7 @@ namespace RegexpD
 
 				teResult.Lines = result.ToArray();
 
-                _saver.Save(teInput.Text, tePattern.Text, result);
+                _saver.Save(teInput.Text, tePattern.Text, result); // test comment
 			}
 			catch (Exception ex)
 			{
