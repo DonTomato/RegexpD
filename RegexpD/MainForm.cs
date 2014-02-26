@@ -40,7 +40,7 @@ namespace RegexpD
 
 				teResult.Lines = result.ToArray();
 
-                _saver.Save(teInput.Text, tePattern.Text, result);
+                _saver.Save(teInput.Text, tePattern.Text, result); // jopa
 			}
 			catch (Exception ex)
 			{
@@ -53,6 +53,8 @@ namespace RegexpD
             Analyze();
 
 			//asdmnfbasdf sd fhsdf sagjh
+
+			//asdf
         }
 	}
 }
