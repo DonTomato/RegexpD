@@ -18,6 +18,8 @@ namespace RegexpD
 			InitializeComponent();
 		}
 
+        // test1
+
         private ResultSaver _saver = new ResultSaver();
         private RegexAnalyzer _analyzer = new RegexAnalyzer();
 
